@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  ImageBrowser
+//
+//  Created by dubhe on 16/8/20.
+//  Copyright © 2016年 dubhe. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//pod
+#import <AFNetworking/AFNetworking.h>
+#import <DFImageManager/DFImageManagerKit.h>
+#import <DFImageManager/DFImageView.h>
+#import <DFImageManager/DFAnimatedImageView.h>
+
+#endif /* PrefixHeader_pch */

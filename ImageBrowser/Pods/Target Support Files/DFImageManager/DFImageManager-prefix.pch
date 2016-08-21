@@ -1,0 +1,6 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#define DF_SUBSPEC_GIF_ENABLED 1
+#define DF_SUBSPEC_PHOTOSKIT_ENABLED 1

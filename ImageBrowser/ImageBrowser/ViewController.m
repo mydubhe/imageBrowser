@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "PhotoView.h"
 @interface ViewController ()
+
+@property (nonatomic, strong) PhotoView *photoView;
 
 @end
 
@@ -16,7 +18,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    PhotoView *photoView = [[PhotoView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:photoView];
+    [photoView loadImageWithURLString:@"1.jpg"];
+    self.photoView = photoView;
+    self.photoView.backgroundColor = [UIColor redColor];
+    
+    
 }
 
 

@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+
+pod 'DFImageManager'
+pod 'AFNetworking', '~>2.0'
+pod 'DFImageManager/GIF'
+#pod 'DFImageManager/WebP'
+pod 'DFImageManager/PhotosKit'
+

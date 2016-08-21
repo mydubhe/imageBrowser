@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46033B021D69DCB000714618 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46033B011D69DCB000714618 /* 1.jpg */; };
 		464B00A71D682B80005BC5B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 464B00A61D682B80005BC5B8 /* main.m */; };
 		464B00AA1D682B80005BC5B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 464B00A91D682B80005BC5B8 /* AppDelegate.m */; };
 		464B00AD1D682B80005BC5B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464B00AC1D682B80005BC5B8 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		464B00B51D682B80005BC5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464B00B31D682B80005BC5B8 /* LaunchScreen.storyboard */; };
 		464B00C01D682B80005BC5B8 /* ImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464B00BF1D682B80005BC5B8 /* ImageBrowserTests.m */; };
 		464B00CB1D682B80005BC5B8 /* ImageBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464B00CA1D682B80005BC5B8 /* ImageBrowserUITests.m */; };
+		4687FE1A1D6830FD002589B6 /* PhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4687FE191D6830FD002589B6 /* PhotoView.m */; };
+		9775745D27C2E1501408ABC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DB52E3D70AB5A200152D7A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46033B011D69DCB000714618 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		464B00A21D682B80005BC5B8 /* ImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		464B00A61D682B80005BC5B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		464B00A81D682B80005BC5B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		464B00C61D682B80005BC5B8 /* ImageBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		464B00CA1D682B80005BC5B8 /* ImageBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserUITests.m; sourceTree = "<group>"; };
 		464B00CC1D682B80005BC5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4687FE181D6830FD002589B6 /* PhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoView.h; sourceTree = "<group>"; };
+		4687FE191D6830FD002589B6 /* PhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoView.m; sourceTree = "<group>"; };
+		4687FE1B1D68319D002589B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7A83D3F87FB64B0DFE647AFB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C1BA7F3716C1B3F0EB5BF4FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E6DB52E3D70AB5A200152D7A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9775745D27C2E1501408ABC3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B1AC622AAFECF16C4CBF864 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1BA7F3716C1B3F0EB5BF4FC /* Pods.debug.xcconfig */,
+				7A83D3F87FB64B0DFE647AFB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		464B00991D682B7F005BC5B8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				464B00BE1D682B80005BC5B8 /* ImageBrowserTests */,
 				464B00C91D682B80005BC5B8 /* ImageBrowserUITests */,
 				464B00A31D682B80005BC5B8 /* Products */,
+				3B1AC622AAFECF16C4CBF864 /* Pods */,
+				DF3FDC94FD109C2EC1643025 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +123,8 @@
 		464B00A41D682B80005BC5B8 /* ImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				4687FE161D6830CA002589B6 /* ImageBrowserVC */,
+				4687FE171D6830CA002589B6 /* PhotoView */,
 				464B00A81D682B80005BC5B8 /* AppDelegate.h */,
 				464B00A91D682B80005BC5B8 /* AppDelegate.m */,
 				464B00AB1D682B80005BC5B8 /* ViewController.h */,
@@ -118,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				464B00A61D682B80005BC5B8 /* main.m */,
+				4687FE1B1D68319D002589B6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +165,31 @@
 			path = ImageBrowserUITests;
 			sourceTree = "<group>";
 		};
+		4687FE161D6830CA002589B6 /* ImageBrowserVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageBrowserVC;
+			sourceTree = "<group>";
+		};
+		4687FE171D6830CA002589B6 /* PhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				46033B011D69DCB000714618 /* 1.jpg */,
+				4687FE181D6830FD002589B6 /* PhotoView.h */,
+				4687FE191D6830FD002589B6 /* PhotoView.m */,
+			);
+			path = PhotoView;
+			sourceTree = "<group>";
+		};
+		DF3FDC94FD109C2EC1643025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6DB52E3D70AB5A200152D7A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 464B00CF1D682B80005BC5B8 /* Build configuration list for PBXNativeTarget "ImageBrowser" */;
 			buildPhases = (
+				D905A0BCDACC68DE081C2ECF /* Check Pods Manifest.lock */,
 				464B009E1D682B7F005BC5B8 /* Sources */,
 				464B009F1D682B7F005BC5B8 /* Frameworks */,
 				464B00A01D682B7F005BC5B8 /* Resources */,
+				51C7510A3C1FE9D28111D499 /* Embed Pods Frameworks */,
+				05C5C266D08B193549344DD0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +301,7 @@
 			files = (
 				464B00B51D682B80005BC5B8 /* LaunchScreen.storyboard in Resources */,
 				464B00B21D682B80005BC5B8 /* Assets.xcassets in Resources */,
+				46033B021D69DCB000714618 /* 1.jpg in Resources */,
 				464B00B01D682B80005BC5B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +322,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05C5C266D08B193549344DD0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C7510A3C1FE9D28111D499 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D905A0BCDACC68DE081C2ECF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		464B009E1D682B7F005BC5B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +378,7 @@
 				464B00AD1D682B80005BC5B8 /* ViewController.m in Sources */,
 				464B00AA1D682B80005BC5B8 /* AppDelegate.m in Sources */,
 				464B00A71D682B80005BC5B8 /* main.m in Sources */,
+				4687FE1A1D6830FD002589B6 /* PhotoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +525,11 @@
 		};
 		464B00D01D682B80005BC5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1BA7F3716C1B3F0EB5BF4FC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ImageBrowser/PrefixHeader.pch";
 				INFOPLIST_FILE = ImageBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dubhe.ImageBrowser;
@@ -433,8 +539,11 @@
 		};
 		464B00D11D682B80005BC5B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A83D3F87FB64B0DFE647AFB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ImageBrowser/PrefixHeader.pch";
 				INFOPLIST_FILE = ImageBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dubhe.ImageBrowser;
@@ -507,6 +616,7 @@
 				464B00D11D682B80005BC5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		464B00D21D682B80005BC5B8 /* Build configuration list for PBXNativeTarget "ImageBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +625,7 @@
 				464B00D41D682B80005BC5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		464B00D51D682B80005BC5B8 /* Build configuration list for PBXNativeTarget "ImageBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +634,7 @@
 				464B00D71D682B80005BC5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
