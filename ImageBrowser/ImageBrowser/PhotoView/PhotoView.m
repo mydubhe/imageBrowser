@@ -113,6 +113,8 @@
         
         CGRect rectToZoomTo = CGRectMake(x, y, w, h);
         [self zoomToRect:rectToZoomTo animated:YES];
+        
+        
     }
 }
 @end
