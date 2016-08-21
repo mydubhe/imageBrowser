@@ -111,8 +111,8 @@
         CGFloat x = pointInView.x - (w / 2.0f);
         CGFloat y = pointInView.y - (h / 2.0f);
         
-        CGRect rectToZoomTo = CGRectMake(x, y, w, h);
-        [self zoomToRect:rectToZoomTo animated:YES];
+        //CGRect rectToZoomTo = CGRectMake(x, y, w, h);
+        //[self zoomToRect:rectToZoomTo animated:YES];
         
         
     }
